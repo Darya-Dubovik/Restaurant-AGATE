@@ -1,0 +1,32 @@
+.description {
+    background-color: rgba(243, 247, 234, 1);
+    padding: 100px 0;
+
+    &__text {
+        max-width: 941px;
+        margin: 0 auto;
+        font-size: $text-size;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description {
+        padding: 80px 0;
+        &__text {
+            max-width: 602px;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        padding: 70px 0;
+        &__text {
+            max-width: 541px;
+            font-size: 1rem;
+        }
+    }
+}
+

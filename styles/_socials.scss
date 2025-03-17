@@ -1,0 +1,37 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    &__link {
+        display: inline-block;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-radius: 50%;
+        font-size: $secondary-size;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    &__link:hover {
+        transform: scale(2);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .socials {
+        margin-top: 47px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .socials {
+        margin-top: 35px;
+    }
+}

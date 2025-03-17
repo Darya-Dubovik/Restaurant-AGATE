@@ -1,0 +1,26 @@
+.banner {
+    padding: 218px 0 185px;
+
+    &__text {
+        font-size: $secondary-size;
+        margin: 0 auto 60px;
+        font-weight: 400;
+        color: $primary-color;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 183px 0 153px;
+        &__text {
+            font-size: 0.9rem;
+            margin: 0 auto 63px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 171px 0 99px;
+    }
+}

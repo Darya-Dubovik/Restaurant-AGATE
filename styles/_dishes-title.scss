@@ -1,0 +1,23 @@
+.dishes-title {
+    font-size: $title-size;
+    color: $secondary-color;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .dishes-title {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dishes-title {
+        font-size: $text-size;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .dishes-title {
+        font-size: $secondary-size; 
+    }
+}

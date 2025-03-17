@@ -1,0 +1,22 @@
+.main-title {
+    font-size: 85px;
+    color: $primary-color;
+    text-transform: uppercase;
+    max-width: 914px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-title {
+        font-size: 3rem;
+        max-width: 697px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+        max-width: 329px;
+    }
+}
